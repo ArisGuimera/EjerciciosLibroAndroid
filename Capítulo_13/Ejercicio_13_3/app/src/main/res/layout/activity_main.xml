@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cursokotlin.ejercicio_13_3.MainActivity">
+
+    <Button
+        android:id="@+id/buttonGoToProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSearchByDni"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="Añadir perfil"/>
+
+    <EditText
+        android:id="@+id/editSearcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/buttonSearchByDni"
+        android:hint="Buscar por DNI"/>
+
+    <Button
+        android:id="@+id/buttonSearchByDni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editSearcher"
+        android:layout_alignBottom="@+id/editSearcher"
+        android:layout_alignParentEnd="true"
+        android:text="Buscar"/>
+
+</RelativeLayout>
