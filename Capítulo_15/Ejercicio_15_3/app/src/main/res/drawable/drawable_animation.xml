@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@android:drawable/ic_menu_edit"
+        android:duration="200"/>
+    <item android:drawable="@android:drawable/ic_menu_share"
+        android:duration="200"/>
+    <item android:drawable="@android:drawable/ic_menu_agenda"
+        android:duration="200"/>
+    <item android:drawable="@android:drawable/ic_menu_camera"
+        android:duration="200"/>
+
+</animation-list>
