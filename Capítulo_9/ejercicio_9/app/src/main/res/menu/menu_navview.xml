@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_one"
+                android:icon="@drawable/account"
+                android:title="Menú 1"/>
+            <item
+                android:id="@+id/menu_two"
+                android:icon="@drawable/account"
+                android:title="Menu 2"/>
+            <item
+                android:id="@+id/menu_three"
+                android:icon="@drawable/account"
+                android:title="Menu 3"/>
+        </group>
+        <item
+            android:id="@+id/subheader"
+            android:title="Más opciones">
+            <menu>
+                <item
+                    android:id="@+id/submenu_one"
+                    android:icon="@drawable/account"
+                    android:title="Submenú 1"/>
+                <item
+                    android:id="@+id/submenu_two"
+                    android:icon="@drawable/account"
+                    android:title="Submenú 2"/>
+            </menu>
+        </item>
+</menu>
